@@ -61,17 +61,47 @@ class math
       }
 	}
   //4.19日考
-  public static function a($n,$m)
-  {
-     if($n<1 || $m<1)
-     {
-      return 1;
-     }
-     if($n < 1)
-     {
-      return 0;
-     }
-     return (($n-1,$m)+$m)$n;
-  } 
+    public static function a($n,$m)
+    {
+      $list = range(1,$n);
+      $num = 1;
+      while (count($list)>1) {
+        foreach ($list as $key => $val) {
+          if($num == $m)
+          {
+            unset($list[$key]);
+            $num = 1;
+            continue;
+          }
+          $num++;
+        }
+      }
+      return $list;
+    }
+   //4.24日考
+    public function b($n)
+    {
+       $num = ($n-1?$n+$this->b($n-1):1);
+       return $num;
+    }
+    //二进制转十进制
+    public function ten($n)
+    {
+      $str = strlen($n);
+      for ($i=0;$i<$len; $i++) { 
+        echo str()
+      }
+    }
+    //4.25日考
+    public static function add($num1,$num1)
+    {
+      $sum = 0;
+      if($num1  == 0)
+      {
+        return 0;
+      }
+      $sum = $num1 ^ $num2;
+      return $sum;
+    }
 }
  ?>
