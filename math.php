@@ -103,5 +103,16 @@ class math
       $sum = $num1 ^ $num2;
       return $sum;
     }
+    //4.26日考
+    public static function sum($arr,$sum)
+    {
+      $count = [];
+      for ($i=0; $i < strlen($arr) ; $i++) { 
+         for ($j=0; $j < $arr[$i]  ; $j++) { 
+           $sum+=$arr[$i];
+         }
+      }
+      return $arr;
+    }
 }
  ?>
