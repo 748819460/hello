@@ -114,5 +114,15 @@ class math
       }
       return $arr;
     }
+    //4.28日考
+    public function shuzu($target, $array)
+    {
+      for ($i=0; $i < count($array) ; $i++) { 
+        if($array[$i]==$target)
+        {
+          return $array[$i];
+        }
+      }
+    }
 }
  ?>
