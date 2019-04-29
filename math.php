@@ -124,5 +124,16 @@ class math
         }
       }
     }
+    //4.29日考
+    public function 4.29($arr_A,$arr_B)
+    {
+    $num = count($arr_A);
+    for ($i=0; $i < $num ; $i++) { 
+      if($num[$i]<$arr_B)
+      {
+        echo $num[$i];
+      }
+    }
+   }
 }
  ?>
