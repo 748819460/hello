@@ -135,5 +135,16 @@ class math
       }
     }
    }
+   //4.30日考
+   public function 4.30($n)
+   {
+    $arr = '';
+    for ($i=0; $i < $arr[$i] ; $i++) { 
+         if($arr[$i] == 1)
+         {
+          echo $arr[$i];
+         }
+    }
+   }
 }
  ?>
