@@ -146,5 +146,15 @@ class math
          }
     }
    }
+   //5.5日考
+  public function 5.5($n)
+  {
+    for ($i=0; $i < count($n); $i++) { 
+      if($i == $n)
+      {
+        echo $i;
+      }
+    }
+  }
 }
  ?>
