@@ -1,22 +1,14 @@
 <?php 
-/**
-* 
-*/
-class Db
-{
-	
-	function 5.14($n)
+$arr = [1,2,3,4,5,6];
+$count = count($arr);
+for ($i=0; $i < $count ; $i++) { 
+	if($i%2==0)
 	{
-		for ($i=0; $i < $n ; $i++) { 
-			if($n%2==0)
-			{
-				return 1;
-			}
-			if($n%2==1)
-			{
-				return $n;
-			}
-		}
+		echo $i;
+	}
+	if($i%2==1)
+	{
+		echo $i;
 	}
 }
 
